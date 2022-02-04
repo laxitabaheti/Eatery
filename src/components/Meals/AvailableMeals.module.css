@@ -1,0 +1,15 @@
+.mealCard {
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 70rem;
+  width: 90%;
+  align-items: center;
+  padding-right: 4rem;
+  @media (max-width: 768px) {
+    width: 50%;
+  }
+}
+
+.mealCard ul {
+  list-style-type: none;
+}

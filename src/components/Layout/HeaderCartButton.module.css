@@ -1,0 +1,24 @@
+.button {
+  margin: 1rem;
+  display: flex;
+  border: none;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.75rem 3rem;
+  border-radius: 25px;
+  background-color: #3b1101;
+  color: white;
+  font-weight: bold;
+}
+.cartIcon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+}
+.badge {
+  background-color: #a53c2e;
+  font-weight: bold;
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}

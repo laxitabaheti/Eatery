@@ -1,0 +1,22 @@
+.Backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.Modal {
+  position: fixed;
+  top: 4rem;
+  left: 5%;
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}

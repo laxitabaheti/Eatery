@@ -1,0 +1,12 @@
+.meal_form {
+  text-align: right;
+}
+
+.button {
+  border-radius: 20px;
+  border: 1px solid rgb(165, 28, 28);
+  font-weight: bold;
+  padding: 0.25rem 2rem;
+  color: white;
+  background-color: rgb(165, 28, 28);
+}
