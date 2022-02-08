@@ -20,7 +20,7 @@
 
 .cartItem_summery {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .amount {
   color: rgb(175, 172, 172);
