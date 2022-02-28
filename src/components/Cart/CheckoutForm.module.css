@@ -1,0 +1,10 @@
+.form {
+  height: 10rem;
+  display: block;
+  overflow-y: scroll;
+}
+.form label {
+  display: block;
+  font-weight: bold;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}

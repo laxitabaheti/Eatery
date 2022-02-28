@@ -3,8 +3,8 @@ import { useContext } from "react";
 import MealItemForm from "../MealItem/MealItemForm";
 import CartContext from "../../Store/CartContext";
 const MealItem = (props) => {
-  const price = `$${props.price.toFixed(2)}`;
   const cartCtx = useContext(CartContext);
+  const price = `$${props.price.toFixed(2)}`;
 
   const addtoCartHandler = (amount) => {
     cartCtx.addItem({

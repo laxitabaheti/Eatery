@@ -1,8 +1,10 @@
 import Modal from "../UI/Modal";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import CartContext from "../Store/CartContext";
 import styles from "./Cart.module.css";
 import CartItem from "./CartItem";
+
+import CheckoutForm from "./CheckoutForm";
 
 const Cart = (props) => {
   const CartCxt = useContext(CartContext);
@@ -14,7 +16,11 @@ const Cart = (props) => {
   const itemInCardRemoveHandler = (id) => {
     CartCxt.removeItem(id);
   };
+  const [isOrdering, setIsOrdering] = useState(false);
 
+  const orderHandler = () => {
+    setIsOrdering(true);
+  };
   const cartItem = (
     <ul className={styles.cartList}>
       {CartCxt.items.map((item) => (
@@ -37,12 +43,19 @@ const Cart = (props) => {
         <span>Total Amount </span>
         <span>{totalAmount}</span>
       </div>
-      <div>
-        <button onClick={props.onClose} className={styles.closeButton}>
-          Close
-        </button>
-        {cartHasItems && <button className={styles.orderButton}>Order</button>}
-      </div>
+      {isOrdering && <CheckoutForm onClick={props.onClose} />}{" "}
+      {!isOrdering && (
+        <div>
+          <button onClick={props.onClose} className={styles.closeButton}>
+            Close
+          </button>
+          {cartHasItems && (
+            <button onClick={orderHandler} className={styles.orderButton}>
+              Order
+            </button>
+          )}
+        </div>
+      )}
     </Modal>
   );
 };

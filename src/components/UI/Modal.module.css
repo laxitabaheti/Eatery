@@ -9,6 +9,8 @@
 }
 
 .Modal {
+  height: 20rem;
+  overflow-y: scroll;
   position: fixed;
   top: 4rem;
   left: 5%;
