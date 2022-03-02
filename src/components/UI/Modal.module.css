@@ -9,10 +9,10 @@
 }
 
 .Modal {
-  height: 20rem;
+  height: 18rem;
   overflow-y: scroll;
   position: fixed;
-  top: 4rem;
+  top: 2rem;
   left: 5%;
   width: 90%;
   background-color: rgb(255, 255, 255);
