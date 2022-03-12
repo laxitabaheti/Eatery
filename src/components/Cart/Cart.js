@@ -63,11 +63,16 @@ const Cart = (props) => {
         <span>Total Amount </span>
         <span>{totalAmount}</span>
       </div>
-      {isOrdering && (
-        <CheckoutForm onConfirm={submitOrderHandler} onClick={props.onClose} />
-      )}{" "}
+      <div className={styles.checkOutFormDivision}>
+        {isOrdering && (
+          <CheckoutForm
+            onConfirm={submitOrderHandler}
+            onClick={props.onClose}
+          />
+        )}{" "}
+      </div>
       {!isOrdering && (
-        <div>
+        <div className={styles.buttons}>
           <button onClick={props.onClose} className={styles.closeButton}>
             Close
           </button>
@@ -81,18 +86,17 @@ const Cart = (props) => {
     </React.Fragment>
   );
 
-  const submittingModalContent = <p>Sending order ...</p>;
+  const submittingModalContent = (
+    <p className={styles.sendingOrder_display}>Sending order ...</p>
+  );
 
   const didSubmitModalContent = (
-    
-      
-      <div>
-        Order Placed
-        <button onClick={props.onClose} className={styles.closeButton}>
-          Close
-        </button>
-      </div>
-   
+    <div className={styles.orderPlaced_display}>
+      Order Placed
+      <button onClick={props.onClose} className={styles.closeButton}>
+        Close
+      </button>
+    </div>
   );
 
   return (

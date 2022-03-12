@@ -111,10 +111,16 @@ const CheckoutForm = (props) => {
           <p>please enter correct name of the city!</p>
         )}
         <div className={styles.buttons}>
-          <button type="button" onClick={props.onClick}>
+          <button
+            className={styles.buttonCancel}
+            type="button"
+            onClick={props.onClick}
+          >
             Cancel
           </button>
-          <button>Confirm</button>
+          <button className={styles.buttonConfirm} type="button"onClick={confirmHandler}>
+            Confirm
+          </button>
         </div>
       </div>
     </form>

@@ -9,15 +9,14 @@
 }
 
 .Modal {
-  height: 18rem;
-  overflow-y: scroll;
+overflow: auto;
   position: fixed;
-  top: 2rem;
-  left: 5%;
-  width: 90%;
+  top: 5rem;
+  left: 25%;
+  width: 50%;
+  height:80%;
   background-color: rgb(255, 255, 255);
-  padding: 1rem;
-  border-radius: 14px;
+  /* padding: 1rem; */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   z-index: 30;
   animation: slide-down 300ms ease-out forwards;

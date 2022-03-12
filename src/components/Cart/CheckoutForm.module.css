@@ -1,10 +1,40 @@
 .form {
   height: 10rem;
   display: block;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 .form label {
   display: block;
   font-weight: bold;
-  margin: 0.5rem 0rem 0.5rem 0rem;
+  font-family: Nunito;
+  margin: 0.5rem 0 0.4rem 0;
+}
+.form input {
+  width: 60%;
+  outline: none;
+}
+
+.buttons {
+  margin: 1rem;
+}
+.buttonConfirm {
+  border-radius: 18px;
+  padding: 0.5rem;
+  width: 6rem;
+  border: none;
+  background-color: brown;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.buttonCancel {
+  border-radius: 18px;
+  padding: 0.5rem;
+  width: 6rem;
+  border: none;
+  background-color: brown;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
 }

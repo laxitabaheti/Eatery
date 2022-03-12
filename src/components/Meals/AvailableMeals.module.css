@@ -13,3 +13,16 @@
 .mealCard ul {
   list-style-type: none;
 }
+.loading_Title_Display {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.error_Title_Display {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
