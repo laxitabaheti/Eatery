@@ -8,7 +8,7 @@ import CheckoutForm from "./CheckoutForm";
 
 const Cart = (props) => {
   const CartCxt = useContext(CartContext);
-  const totalAmount = `$${CartCxt.totalAmount.toFixed(2)}`;
+  const totalAmount = `${CartCxt.totalAmount.toFixed(2)}`;
   const cartHasItems = CartCxt.items.length > 0;
   const itemInCardAddHandler = (item) => {
     CartCxt.addItem({ ...item, amount: 1 });
@@ -61,7 +61,10 @@ const Cart = (props) => {
       {cartItem}
       <div className={styles.cartAmount}>
         <span>Total Amount </span>
-        <span>{totalAmount}</span>
+        <span>
+          <span>&#8377;</span>
+          {totalAmount}
+        </span>
       </div>
       <div className={styles.checkOutFormDivision}>
         {isOrdering && (

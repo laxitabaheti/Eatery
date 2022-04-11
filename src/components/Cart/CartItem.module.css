@@ -19,30 +19,32 @@
 }
 .price {
   display: flex;
-  color: brown;
+  color: rgb(141, 16, 16);
   font-weight: bold;
   font-size: 1.3rem;
 }
 
-.amount {
+.buttons {
   display: flex;
-  color: rgb(131, 130, 130);
-  width: 2rem;
-  border-radius: 5px;
-  padding: 0.3rem 0.2rem 0.3rem 0.4rem;
-  border: 2px solid rgb(221, 214, 214);
-  box-shadow: 2px rgba(155, 153, 153, 0.458);
-}
-
-.buttons button {
-  border-radius: 15px;
-  padding: 0.1rem;
-  width: 2.5rem;
-  border: none;
-  background-color: brown;
+  justify-content: space-between;
+  background-color: rgb(141, 16, 16);
   color: white;
   font-weight: bold;
-  margin: 1rem 0 1rem 1rem;
+  margin: 1rem 0rem;
+  /* border: 2px solid black; */
+  border-radius: 12px;
+}
+.amount {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+.buttons button {
+  border-radius: 10px;
+  background-color: rgb(141, 16, 16);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  width: 2.5rem;
+  font-weight: bold;
   font-size: 1rem;
-  border: 2px solid brown;
 }

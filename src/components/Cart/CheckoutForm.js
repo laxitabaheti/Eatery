@@ -75,7 +75,11 @@ const CheckoutForm = (props) => {
           // onChange={nameChangeHandler}
           ref={nameInputRef}
         />
-        {!formInputValidity.nameIsValid && <p>please enter correct name!</p>}
+        {!formInputValidity.nameIsValid && (
+          <p className={styles.ErrorcorrectionmessageDisplay}>
+            Please enter correct name!
+          </p>
+        )}
 
         <label htmlFor="Street">Street</label>
         <input
@@ -85,10 +89,12 @@ const CheckoutForm = (props) => {
           ref={streetInputRef}
         />
         {!formInputValidity.streetIsValid && (
-          <p>please enter correct street!</p>
+          <p className={styles.ErrorcorrectionmessageDisplay}>
+            Please enter correct street!
+          </p>
         )}
 
-        <label htmlFor="Postal Code">Postal code</label>
+        <label htmlFor="Postal Code">Postal Code</label>
         <input
           type="text"
           // onChange={postalCodeChangeHandler}
@@ -96,7 +102,9 @@ const CheckoutForm = (props) => {
           ref={postalCodeInputRef}
         />
         {!formInputValidity.postalCodeIsValid && (
-          <p>please enter correct PostalCode!</p>
+          <p className={styles.ErrorcorrectionmessageDisplay}>
+            Please enter correct Postal Code!
+          </p>
         )}
 
         <label htmlFor="City">City</label>
@@ -108,7 +116,9 @@ const CheckoutForm = (props) => {
         />
 
         {!formInputValidity.cityIsValid && (
-          <p>please enter correct name of the city!</p>
+          <p className={styles.ErrorcorrectionmessageDisplay}>
+            Please enter correct name of the city!
+          </p>
         )}
         <div className={styles.buttons}>
           <button
@@ -118,7 +128,11 @@ const CheckoutForm = (props) => {
           >
             Cancel
           </button>
-          <button className={styles.buttonConfirm} type="button"onClick={confirmHandler}>
+          <button
+            className={styles.buttonConfirm}
+            type="button"
+            onClick={confirmHandler}
+          >
             Confirm
           </button>
         </div>

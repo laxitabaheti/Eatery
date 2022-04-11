@@ -6,7 +6,7 @@
 }
 .cartAmount {
   font-size: 1.4rem;
-  margin: 0 2rem;
+  margin: 2rem 3rem;
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -14,35 +14,36 @@
 }
 .buttons {
   text-align: right;
-  margin: 1rem;
+  margin: 3rem;
 }
 .closeButton {
   margin: 0 0.5rem;
-  border-radius: 18px;
+  border-radius: 10px;
   padding: 0.5rem;
   width: 6rem;
   border: none;
   background-color: white;
   color: brown;
   font-weight: bold;
-  border: 2px solid brown;
+  border: 1px solid rgb(141, 16, 16);
 }
 
 .orderButton {
-  border-radius: 18px;
+  border-radius: 10px;
   padding: 0.5rem;
   width: 6rem;
   border: none;
-  background-color: brown;
+  background-color: rgb(141, 16, 16);
   color: white;
-  border: 2px solid white;
+  border: 1px solid white;
   font-weight: bold;
 }
 
 .checkOutFormDivision {
-  text-align: center;
+  margin: 3rem;
 }
 .sendingOrder_display {
+  margin: 14rem;
   align-items: center;
   text-align: center;
 }
@@ -54,12 +55,12 @@
 }
 .orderPlaced_display button {
   margin: 1rem;
-  border-radius: 18px;
+  border-radius: 5px;
   padding: 0.5rem;
   width: 6rem;
   border: none;
-  background-color: brown;
+  background-color: rgb(141, 16, 16);
   color: white;
-  border: 2px solid white;
+  border: none;
   font-weight: bold;
 }

@@ -5,12 +5,15 @@ const CartItem = (props) => {
     <li className={styles.list}>
       <div className={styles.nameItem}>{props.name}</div>
       <div className={styles.listItem}>
-        <div className={styles.price}>{`$${props.price.toFixed(2)}`}</div>
-        <div className={styles.amount}>x{props.amount}</div>
+        <div className={styles.price}>
+          <span>&#8377;</span>
+          {`${props.price.toFixed(2)}`}
+        </div>
         <div className={styles.buttons}>
           <button type="button" onClick={props.onRemove}>
             -
           </button>
+          <div className={styles.amount}>{props.amount}</div>
           <button type="button" onClick={props.onAdd}>
             +
           </button>

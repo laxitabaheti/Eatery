@@ -1,40 +1,52 @@
 .form {
   height: 10rem;
   display: block;
+  margin: 2rem 0 3rem 0;
   /* overflow-y: scroll; */
 }
 .form label {
   display: block;
-  font-weight: bold;
-  font-family: Nunito;
+  /* font-weight: bold; */
+  font-size: 1.2rem;
   margin: 0.5rem 0 0.4rem 0;
 }
 .form input {
-  width: 60%;
+  width: 100%;
+  padding: 0.3rem;
+  font: inherit;
+  font-size: 0.8rem;
   outline: none;
+  caret-color: rgb(81, 78, 78);
+  color: rgb(66, 33, 33);
 }
 
 .buttons {
-  margin: 1rem;
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  justify-content: right;
 }
 .buttonConfirm {
-  border-radius: 18px;
+  border-radius: 5px;
   padding: 0.5rem;
   width: 6rem;
-  border: none;
-  background-color: brown;
+  background-color: rgb(141, 16, 16);
   color: white;
-  border: 2px solid white;
+  border: none;
   font-weight: bold;
 }
 
 .buttonCancel {
-  border-radius: 18px;
+  border-radius: 5px;
   padding: 0.5rem;
   width: 6rem;
-  border: none;
-  background-color: brown;
+  margin: 0 1rem;
+  background-color: rgb(141, 16, 16);
   color: white;
-  border: 2px solid white;
+  border: none;
   font-weight: bold;
+}
+
+.ErrorcorrectionmessageDisplay {
+  font-size: 0.8rem;
+  color: rgb(173, 11, 11);
 }

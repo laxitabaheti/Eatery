@@ -3,10 +3,15 @@
 }
 
 .button {
-  border-radius: 20px;
-  border: 1px solid rgb(165, 28, 28);
+  border-radius: 5px;
+  border: none;
   font-weight: bold;
-  padding: 0.25rem 2rem;
+  padding: 0.45rem 2rem;
   color: white;
-  background-color: rgb(165, 28, 28);
+  background-color: rgb(141, 16, 16);
+}
+
+.wrongInputError {
+  font-size: 0.8rem;
+  color: rgb(231, 47, 47);
 }
