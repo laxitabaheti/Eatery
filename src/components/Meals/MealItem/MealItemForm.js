@@ -37,7 +37,7 @@ const MealItemForm = (props) => {
       />
       <div>
         <button className={styles.button} type="submit">
-          +Add
+          + Add
         </button>
         {!amountIsValid && (
           <p className={styles.wrongInputError}>Enter a valid amount (1-5)</p>

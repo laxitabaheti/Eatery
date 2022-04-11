@@ -6,9 +6,9 @@
   border-radius: 5px;
   border: none;
   font-weight: bold;
-  padding: 0.45rem 2rem;
+  padding: 0.65rem 2rem;
   color: white;
-  background-color: rgb(141, 16, 16);
+  background-color: rgb(163, 13, 13);
 }
 
 .wrongInputError {

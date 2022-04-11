@@ -7,15 +7,16 @@
 }
 
 .name {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.35rem;
 }
 .description {
   font-style: italic;
+  margin-bottom: 0.35rem;
 }
 
 .price {
   margin-top: 0.25rem;
   font-size: 1.25rem;
-  color: brown;
+  color: rgb(136, 15, 15);
   font-weight: bold;
 }

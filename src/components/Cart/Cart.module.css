@@ -18,7 +18,7 @@
 }
 .closeButton {
   margin: 0 0.5rem;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0.5rem;
   width: 6rem;
   border: none;
@@ -29,13 +29,13 @@
 }
 
 .orderButton {
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0.5rem;
   width: 6rem;
   border: none;
   background-color: rgb(141, 16, 16);
   color: white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   font-weight: bold;
 }
 

@@ -18,7 +18,7 @@ const MealItem = (props) => {
   return (
     <li className={styles.mealList}>
       <div>
-        <h3 className={styles.name}>{props.name}</h3>
+        <h2 className={styles.name}>{props.name}</h2>
         <div className={styles.description}>{props.description}</div>
         <div className={styles.price}>
           <span>&#8377;</span>

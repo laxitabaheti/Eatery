@@ -7,7 +7,7 @@
 }
 .nameItem {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: block;
   align-items: center;
 }
@@ -39,7 +39,7 @@
   font-weight: bold;
 }
 .buttons button {
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: rgb(141, 16, 16);
   color: white;
   border: none;
