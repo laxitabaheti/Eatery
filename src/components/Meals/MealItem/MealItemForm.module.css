@@ -1,18 +1,24 @@
 .meal_form {
   text-align: right;
-  padding: 1rem;
+  padding: 0.5rem 0 0 0;
 }
 
 .button {
   border-radius: 5px;
   border: none;
+  cursor: pointer;
   font-weight: bold;
-  padding: 0.65rem 2rem;
+  padding: 0.35rem 2rem;
   color: white;
+  border: 1px solid rgb(163, 13, 13);
   background-color: rgb(163, 13, 13);
 }
 
 .wrongInputError {
   font-size: 0.8rem;
   color: rgb(231, 47, 47);
+}
+
+.button:hover {
+  background-color: rgb(212, 7, 7);
 }
