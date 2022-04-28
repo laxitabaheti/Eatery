@@ -1,9 +1,9 @@
 .button {
-  margin: 1rem;
   display: flex;
   border: none;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
   padding: 0.75rem 3rem;
   border-radius: 25px;
   background-color: #3b1101;
