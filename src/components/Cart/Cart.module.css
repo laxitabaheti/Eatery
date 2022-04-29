@@ -6,7 +6,7 @@
 }
 .cartAmount {
   font-size: 1.4rem;
-  margin: 2rem 3rem;
+  margin: 2rem;
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
 }
 .buttons {
   text-align: right;
-  margin: 3rem;
+  margin: auto;
 }
 .closeButton {
   margin: 0 0.5rem;
@@ -40,16 +40,16 @@
 }
 
 .checkOutFormDivision {
-  margin: 3rem;
+  margin: 1.5rem;
 }
 .sendingOrder_display {
-  margin: 14rem;
+  margin: auto;
   align-items: center;
   text-align: center;
 }
 
 .orderPlaced_display {
-  margin: 14rem;
+  margin: auto;
   align-items: center;
   text-align: center;
 }

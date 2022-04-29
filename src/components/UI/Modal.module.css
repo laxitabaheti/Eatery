@@ -9,12 +9,13 @@
 }
 
 .Modal {
-  overflow: auto; /* scrollbar-width:thin; */
+  overflow: auto;
+  /* scrollbar-width:thin; */
   position: fixed;
   padding: 0.5rem;
-  height: 30rem;
-  top: 20%;
-  left: 25%;
+  height: auto;
+  top: 10%;
+  left: 20%;
   max-width: 50rem;
   width: 90%;
   align-items: center;

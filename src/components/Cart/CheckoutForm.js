@@ -73,6 +73,7 @@ const CheckoutForm = (props) => {
           type="text"
           id="name"
           // onChange={nameChangeHandler}
+          placeholder="type your name here"
           ref={nameInputRef}
         />
         {!formInputValidity.nameIsValid && (
@@ -85,6 +86,7 @@ const CheckoutForm = (props) => {
         <input
           type="text"
           id="Street"
+          placeholder="type the name of the street here "
           //  onChange={streetNameChangeHandler}
           ref={streetInputRef}
         />
@@ -97,6 +99,7 @@ const CheckoutForm = (props) => {
         <label htmlFor="Postal Code">Postal Code</label>
         <input
           type="text"
+          placeholder="type postal code of 5 digits here"
           // onChange={postalCodeChangeHandler}
           id="Postal Code"
           ref={postalCodeInputRef}
@@ -110,6 +113,7 @@ const CheckoutForm = (props) => {
         <label htmlFor="City">City</label>
         <input
           type="text"
+          placeholder="type city name here"
           // onChange={postalCodeChangeHandler}
           id="City"
           ref={cityInputRef}
