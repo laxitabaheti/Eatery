@@ -1,2 +1,2 @@
-# SanpleMealApp
+# SampleMealApp
 Created with CodeSandbox
