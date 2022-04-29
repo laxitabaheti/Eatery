@@ -1,4 +1,4 @@
-import MealImg from "/src/components/Assets/meals.jpg";
+import MealImg from "/src/components/Assets/Meals.JPG";
 import styles from "./Header.module.css";
 import { Fragment } from "react";
 import HeaderCartButton from "./HeaderCartButton";
