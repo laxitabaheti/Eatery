@@ -1,8 +1,9 @@
 .label {
   font-weight: bold;
-  margin: 1rem;
+  margin: 0;
 }
 .input {
+  margin: 0.5rem;
   width: 3rem;
   height: 1.5rem;
   border-radius: 3px;

@@ -1,7 +1,7 @@
 .mealList {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
-  margin: 1rem;
+  margin: auto;
   padding: 0 0 1rem 0;
   border-bottom: solid rgb(194, 192, 192) 1px;
 }
