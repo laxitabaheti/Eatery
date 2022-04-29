@@ -15,15 +15,15 @@
   padding: 0.5rem;
   height: auto;
   top: 10%;
-  left: 20%;
-  max-width: 50rem;
-  width: 90%;
+  left: 25%;
+  max-width: 40rem;
+  width: 80%;
   align-items: center;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   z-index: 30;
   animation: slide-down 300ms ease-out forwards;
-  @media (max-width: 768px) {
+  @media (max-width: 765px) {
     width: 50%;
   }
 }
